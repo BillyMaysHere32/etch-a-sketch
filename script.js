@@ -17,4 +17,11 @@ highlighted.addEventListener("mouseover", function(e) {
   e.target.classList.replace("eachSquare", "highlighted");
 });
 
+
+const button = document.querySelector('button')
+button.addEventListener('click', () => {
+let newGridCount = prompt("Choose New Grid Square Count");
+});    
+
+
 createGrid();
