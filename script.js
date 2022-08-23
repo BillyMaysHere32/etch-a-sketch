@@ -12,4 +12,9 @@ function createGrid() {
     };
 }
 
+const highlighted = document.querySelector('div');
+highlighted.addEventListener("mouseover", function(e) {
+  e.target.classList.replace("eachSquare", "highlighted");
+});
+
 createGrid();
