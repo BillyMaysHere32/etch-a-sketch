@@ -12,3 +12,8 @@
     background-color: white;
     border: 1px solid black;
 }
+
+.highlighted {
+    background-color: grey;
+    border: 1px solid black;
+}
